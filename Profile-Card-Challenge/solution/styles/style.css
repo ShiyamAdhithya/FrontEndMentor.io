@@ -10,7 +10,7 @@ html, body {
   font-family: 'Kumbh Sans', sans-serif;
   background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: top -20em left -20em, bottom calc(-20em - 100vh) right -20em;
+  background-position: top -20em left -20em, bottom -20em right -20em;
   background-color: #19a2ae;
   width: 100%;
   height: 100%;
@@ -28,7 +28,7 @@ html, body {
 
 @media screen and (max-width: 375px) {
   html, body {
-    background-position: top -35em left -40em, bottom calc(-35em - 100vh) right -40em;
+    background-position: top -35em left -40em, bottom -35em right -40em;
   }
 }
 
