@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  font-size: 18px;
+  font-family: 'Kumbh Sans', sans-serif;
+  background: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top -20em left -20em, bottom calc(-20em - 100vh) right -20em;
+  background-color: #19a2ae;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 375px) {
+  html, body {
+    background-position: top -35em left -40em, bottom calc(-35em - 100vh) right -40em;
+  }
+}
+
+.card {
+  max-width: 345px;
+  width: 100%;
+  text-align: center;
+  margin: auto 0;
+}
+
+.card .card-header {
+  background-image: url(../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  border-radius: 20px 20px 0 0;
+  height: 7em;
+}
+
+.card .card-header .card-img img {
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-top: 4em;
+}
+
+.card .card-body {
+  padding-top: 4em;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+
+.card .card-body p {
+  font-weight: 700;
+  color: #2d3248;
+  margin: 1em;
+}
+
+.card .card-body p.location {
+  font-weight: 400;
+  color: #969696;
+}
+
+.card .card-body small {
+  font-weight: 400;
+  font-size: 14px;
+  color: #969696;
+}
+
+.card .card-body .card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-top: 1px solid #e3e3e3;
+}
+
+.card .card-body .card-footer small {
+  margin-top: 0.5em;
+  font-size: 12px;
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
